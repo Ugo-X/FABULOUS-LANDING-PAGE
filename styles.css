@@ -79,59 +79,59 @@ li {
   bottom: 50px;
   right: -43px;
   z-index: 1;
- 
 }
 
-.image-1::after{
- content: '\276f';
- position: absolute;
- width: 40px;
- width: 40px;
-bottom: 120px;
-left: -100px;
-color: white;
-font-size:28px ;
-border: 2px solid white;
-border-radius: 50%;
-text-align: center;
-transform: rotate(-90deg);
+.image-1::after {
+  content: "\276f";
+  position: absolute;
+  width: 40px;
+  width: 40px;
+  bottom: 120px;
+  left: -100px;
+  color: white;
+  font-size: 28px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  transform: rotate(-90deg);
 }
-.image-1::before{
- content: '\276f';
- position: absolute;
- width: 40px;
- width: 40px;
-bottom: 30px;
-left: -100px;
-color: white;
-font-size:28px ;
-border: 2px solid white;
-border-radius: 50%;
-text-align: center;
-transform: rotate(90deg);
+.image-1::before {
+  content: "\276f";
+  position: absolute;
+  width: 40px;
+  width: 40px;
+  bottom: 30px;
+  left: -100px;
+  color: white;
+  font-size: 28px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  transform: rotate(90deg);
 }
 
-.line-1{
+.line-1 {
   width: 2px;
   height: 80px;
   background: black;
   position: absolute;
-  right:-40px ;
-  bottom:34px;
+  right: -40px;
+  bottom: 34px;
+  font-weight:;
 }
 
-.line-after{
-  content: '29/06';
-  width: 5px;
-  height: 85px;
+.line-1::after {
+  content: "29/06";
+  width: 0;
+  height: 80px;
   background: black;
   position: absolute;
- top: -30px;
- left: 17px;
- font-size: 11px;
- letter-spacing: 1px;
- transform: rotate(-90deg);
- background-color: black;
+  top: -43px;
+  left: 33px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transform: rotate(-90deg);
+  background-color: #000;
 }
 
 /* =++++++++++++++++++++++++++++++++++++++++++++++++++++++= */
