@@ -60,6 +60,18 @@ li {
  position: absolute;
  top: 200px;
  right: -20px;
+ width: 400px;
+ color: white;
+}
+
+.quote-text p{
+ margin-top: 15px;
+ color: #ffffffc7;
+ font-size: 22px;
+}
+
+.quote-icon-2{
+ margin-left: 280px;
 }
 
 /* css code for right column */
